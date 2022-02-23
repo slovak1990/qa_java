@@ -29,7 +29,7 @@ public class CatTest {
 
     @Test
     public void testGetFood() throws Exception {
-        List<String> expected = List.of("Свинина", "Баранина");
+        List<String> expected = List.of("Вискас");
         when(feline.eatMeat()).thenReturn(expected);
 
         List<String> actual = cat.getFood();

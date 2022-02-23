@@ -39,9 +39,9 @@ public class LionTest {
     public void testGetKittens() throws Exception {
         Lion lion = new Lion("Самец", feline);
 
-        int expected = lion.getKittens();
+        int expected = 0;
 
-        int actual = 0;
+        int actual = lion.getKittens();
 
         assertEquals(expected, actual);
     }
